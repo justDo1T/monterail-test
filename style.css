@@ -191,6 +191,7 @@ body {
 .question-topic p {
 	color: #0266B3;
 	font-weight: 700;
+	margin-right: 10px;
 }
 
 .question-topic #is-asking {
