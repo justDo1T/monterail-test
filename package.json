@@ -1,0 +1,26 @@
+{
+  "name": "monterail-test",
+  "version": "1.0.0",
+  "description": "This is a test project to [Monterail](https://www.monterail.com/) company.",
+  "main": "index.js",
+  "scripts": {
+    "question-prefix": "postcss question/style.css --use autoprefixer --no-map -o question/style_prefixed.css",
+    "profile-prefix": "postcss profile/style.css --use autoprefixer --no-map -o profile/style_prefixed.css",
+    "questions-prefix": "postcss questions/style.css --use autoprefixer --no-map -o questions/style_prefixed.css",
+    "autoprefixer": "npm run question-prefix | npm run profile-prefix | npm run questions-prefix"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/justDo1T/monterail-test.git"
+  },
+  "author": "Adrian Siewiera",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/justDo1T/monterail-test/issues"
+  },
+  "homepage": "https://github.com/justDo1T/monterail-test#readme",
+  "devDependencies": {
+    "autoprefixer": "^7.1.3",
+    "postcss-cli": "^4.1.0"
+  }
+}
